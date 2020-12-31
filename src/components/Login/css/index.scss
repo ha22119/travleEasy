@@ -1,0 +1,143 @@
+body {
+  background: #FAFAFA;
+}
+a {
+  font-family: JejuGothic;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+}
+.MainLoginPage {
+  width: 100%;
+  height: 100vh;
+  float: left;
+  .ServiceDescriptionPart {
+    width: 55.6%;
+    height: 100%;
+    float: left;
+  }
+  .LoginPart{
+    width: 44.4%;
+    height: 100%;
+    float: left;
+  }
+}
+
+.ServiceDescriptionPart{
+  box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 25px 25px 0px;
+  .Inner {
+    width: 509px;
+    height: 241px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 17.48%;
+    .Logo { 
+      margin-left: 150px;
+      img{
+        width: 200px;
+        height: 200px;
+        filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+      }
+    }
+    
+    .Description {
+      width: 509px;
+      height: 241px;
+      margin-top: 10.25%;
+      a {
+        font-size: 36px;
+        line-height: 39px;
+        color: #C7C7C7;
+      }
+    }
+  }
+}
+
+.LoginPart {
+  .Inner {
+    width: 489px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 25.39%;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    .LoginDescription {
+      width: 100%;
+      height: 54%;
+      background: #257CFF;
+      float: left;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+    .Description {
+      float: left;
+      width: 325px;
+      height: 120px;
+      margin-left: 56px;
+      margin-top: 68px;
+      a {
+        font-size: 28px;
+        line-height: 30px;
+        color: #FFFFFF;
+      }
+    }
+    .LoginForm { 
+      margin-top: 21px;
+      input {
+        width: 80%;
+        height: 80px;
+        border: 0px;
+        margin: 0 auto;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;    
+      }  
+      .Line{
+        width: 390px;
+        height: 0px;
+        border: 2px solid #D9D9D9;
+        margin: 0 auto;
+      }
+    }
+    .button {
+      margin-left: 380px;
+    }
+    .Footer {
+      margin-top: 10.54%;
+      float: left;
+      a{
+        font-family: JejuGothic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #C7C7C7;
+      }
+      .FindUserInfo {
+        width: 200px;
+        height: 20px;
+        margin-left: 143.5px;
+      }
+      .SingUp {
+        margin-top: 1.8%;
+        width: 80px;
+        height: 20px;
+        text-align: center;
+        margin-left: 203.5px;
+      }
+    }
+  }
+}
